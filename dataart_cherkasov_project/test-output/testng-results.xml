@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22128" started-at="2015-09-11T14:57:58Z" finished-at="2015-09-11T14:58:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22128" started-at="2015-09-11T14:57:58Z" finished-at="2015-09-11T14:58:20Z">
+      <class name="selenium_cherkasov.test.RegistrationTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="init" is-config="true" duration-ms="6151" started-at="2015-09-11T17:57:58Z" finished-at="2015-09-11T17:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="mayBeLogout" is-config="true" duration-ms="10258" started-at="2015-09-11T17:58:04Z" finished-at="2015-09-11T17:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeLogout -->
+        <test-method status="PASS" signature="registerAsRegularUserVerifyThatUserCanSeeApplicationsButCannotUploadThem()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="registerAsRegularUserVerifyThatUserCanSeeApplicationsButCannotUploadThem" duration-ms="1915" started-at="2015-09-11T17:58:14Z" finished-at="2015-09-11T17:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAsRegularUserVerifyThatUserCanSeeApplicationsButCannotUploadThem -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-09-11T17:58:16Z" finished-at="2015-09-11T17:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerAsRegularUserVerifyThatUserCanSeeApplicationsButCannotUploadThem status=SUCCESS method=RegistrationTest.registerAsRegularUserVerifyThatUserCanSeeApplicationsButCannotUploadThem()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="mayBeLogout" is-config="true" duration-ms="200" started-at="2015-09-11T17:58:16Z" finished-at="2015-09-11T17:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeLogout -->
+        <test-method status="PASS" signature="registerNewUserAndVerifyThatItIsLoggedIn()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="registerNewUserAndVerifyThatItIsLoggedIn" duration-ms="1339" started-at="2015-09-11T17:58:16Z" finished-at="2015-09-11T17:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserAndVerifyThatItIsLoggedIn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-09-11T17:58:17Z" finished-at="2015-09-11T17:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewUserAndVerifyThatItIsLoggedIn status=SUCCESS method=RegistrationTest.registerNewUserAndVerifyThatItIsLoggedIn()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="mayBeLogout" is-config="true" duration-ms="196" started-at="2015-09-11T17:58:17Z" finished-at="2015-09-11T17:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeLogout -->
+        <test-method status="PASS" signature="registerNewUserLogoutAndVerifyThatUserCanLogin()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="registerNewUserLogoutAndVerifyThatUserCanLogin" duration-ms="2049" started-at="2015-09-11T17:58:18Z" finished-at="2015-09-11T17:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserLogoutAndVerifyThatUserCanLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-09-11T17:58:20Z" finished-at="2015-09-11T17:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewUserLogoutAndVerifyThatUserCanLogin status=SUCCESS method=RegistrationTest.registerNewUserLogoutAndVerifyThatUserCanLogin()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:selenium_cherkasov.test.RegistrationTest@2a0aa21e]" name="stop" is-config="true" duration-ms="375" started-at="2015-09-11T17:58:20Z" finished-at="2015-09-11T17:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- selenium_cherkasov.test.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
